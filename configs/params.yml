@@ -1,0 +1,14 @@
+n_top_var_genes: 100
+
+group_colors:
+  Ctrl: "#1f77b4"
+  PD:   "#d62728"
+
+gender_colors:
+  Male:   "#87CEEB"
+  Female: "#FFC0CB"
+
+zscore_palette:
+  low:  "#f4a3b0"
+  mid:  "#ffffff"
+  high: "#6abf69"

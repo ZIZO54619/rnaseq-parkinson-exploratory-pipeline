@@ -1,0 +1,6 @@
+data_dir: "data"
+raw_expr: "data/raw/Parkinson_exp.txt"
+raw_pheno: "data/raw/Parkinson_phenotable.txt"
+
+out_figures: "reports/figures"
+out_results: "results"
