@@ -39,6 +39,7 @@ The boxplot visualizes global gene expression distribution across all samples to
 <p align="center">
   <img src="https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/Box%20Plot.pdf" width="600">
 </p>
+<img width="1287" height="410" alt="image" src="https://github.com/user-attachments/assets/881b9ce7-4047-4ce8-bf31-0f3b6a689d2c" />
 
 ---
 
