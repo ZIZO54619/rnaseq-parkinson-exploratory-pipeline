@@ -96,10 +96,10 @@ The 2D PCA scatter plot shows:
 A 3D PCA plot provides a deeper look at sample grouping.  
 View the interactive HTML version directly:
 
-👉 **[Open PCA_3D interactive plot](file:///D:/my%20self/GitHub/rnaseq-parkinson-exploratory-pipeline/reports/figures/PCA_3D.html)**
+👉 **[Open PCA_3D interactive plot](https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html)**
 
 <p align="center">
-  <img width="700" alt="image" src="https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html" />
+<img width="839" height="513" alt="image" src="https://github.com/user-attachments/assets/03fc4d3c-e4be-4b07-860f-4324f9ac8af7" />
 </p>
 
 ---
