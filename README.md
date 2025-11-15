@@ -139,9 +139,8 @@ This heatmap displays the expression of the most informative genes across all sa
 - Some samples clearly shift toward PD-like patterns  
 
 <p align="center">
-  <img alt="Top 100 variable genes heatmap" src="https://github.com/user-attachments/assets/c3a672d8-cad5-4625-a3a6-6a8a279e4319" width="700" />
+<img width="700" height="700" alt="image" src="https://github.com/user-attachments/assets/233a6af3-9f9e-4d68-9f8e-214751502b7d" />
 </p>
-<img width="3300" height="3300" alt="image" src="https://github.com/user-attachments/assets/233a6af3-9f9e-4d68-9f8e-214751502b7d" />
 
 ---
 
