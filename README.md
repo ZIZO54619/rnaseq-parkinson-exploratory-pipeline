@@ -7,7 +7,9 @@ The pipeline includes data loading, quality control, PCA, and heatmap-based visu
 
 ## 📌 Graphical Abstract  
 
+<p align="center">
 <img width="1132" height="636" alt="image" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" />
+</p>
 
 ---
 
@@ -104,3 +106,54 @@ View the interactive HTML version directly:
 
 ---
 
+---
+
+## 🔥 Heatmaps — Top Variable Genes
+
+To explore gene-level expression patterns, the **top 100 most variable genes** were selected based on variance across all samples.  
+These genes often capture the strongest biological signals, making them ideal for visualization.
+
+---
+
+### **1️⃣ Heatmap — Top 100 Most Variable Genes**
+
+This heatmap displays the raw expression of the most informative genes across all samples.
+
+- Highlights global expression trends  
+- Reveals potential Parkinson-associated clusters  
+- Some samples clearly shift toward PD patterns
+
+<p align="center">
+<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/c3a672d8-cad5-4625-a3a6-6a8a279e4319" />
+</p>
+
+---
+
+### **2️⃣ Z-score Heatmap — Normalized Expression**
+
+Z-score normalization allows comparison of gene expression **relative to each gene’s mean**, revealing:
+
+- Up-/down-regulated clusters  
+- PD-associated signatures  
+- Age/gender/sample-type annotations  
+
+Each sample is annotated using:
+- 🟥 PD vs 🟦 Control  
+- 🚹 / 🚺 Gender  
+- Age scale (white → black)
+
+<p align="center">
+<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/5a3168cc-5113-4cdf-aa8b-85770856cc7d" />
+</p>
+
+---
+
+### **3️⃣ 3D Z-score Heatmap (Optional)**
+
+A 3D visualization of the Z-score matrix adds a more geometric view of sample structure and gene activation patterns.
+
+<p align="center">
+<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/d00daeed-8aad-4992-9d79-e1dea3accf3d" />
+</p>
+
+---
