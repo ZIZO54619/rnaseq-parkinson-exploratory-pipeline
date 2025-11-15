@@ -59,7 +59,7 @@ The boxplot visualizes global gene expression distribution across all samples to
 - Potential batch effects  
 
 <p align="center">
-  <img alt="Boxplot" src="https://github.com/user-attachments/assets/b3a29e46-f441-4c03-a262-eda349901d75" width="750" />
+<img width="4840" height="3740" alt="image" src="https://github.com/user-attachments/assets/d65be8a0-648d-4679-a99f-948805220047" />
 </p>
 
 ---
@@ -159,7 +159,7 @@ Each sample is annotated using:
 - Age scale (white → black)  
 
 <p align="center">
-  <img alt="Z-score heatmap" src="https://github.com/user-attachments/assets/5a3168cc-5113-4cdf-aa8b-85770856cc7d" width="700" />
+<img width="2200" height="2200" alt="image" src="https://github.com/user-attachments/assets/6a7681e0-d7dd-4a2a-9920-b0b2fc4e1d20" />
 </p>
 
 ---
