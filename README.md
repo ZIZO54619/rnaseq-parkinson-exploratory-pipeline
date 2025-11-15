@@ -67,3 +67,40 @@ Histograms allow inspecting the full distribution shape for each sample.
 </p>
 
 ---
+---
+
+## 🔷 Principal Component Analysis (PCA)
+
+PCA was applied to explore natural sample structure, detect separation between Parkinson vs Control subjects, and identify potential outliers.
+
+---
+
+### **1️⃣ PCA 2D — Global sample separation**
+
+The 2D PCA scatter plot shows:
+
+- Clear separation between **PD** and **Control** samples  
+- PC1 and PC2 together explain a large portion of variance  
+- No strong batch effects  
+- One sample (previously noted in QC) lies closer to PD cluster  
+  → potential misclassification or hidden phenotype effect
+
+<p align="center">
+<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/bf8ee7a4-df15-4b3b-9dbc-ccd99823efe5" />
+</p>
+
+---
+
+### **2️⃣ PCA 3D — Interactive sample visualization**
+
+A 3D PCA plot provides a deeper look at sample grouping.  
+View the interactive HTML version directly:
+
+👉 **[Open PCA_3D interactive plot](https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html)**
+
+<p align="center">
+  <img width="700" alt="image" src="https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html" />
+</p>
+
+---
+
