@@ -8,7 +8,7 @@ The pipeline includes data loading, quality control, PCA, and heatmap-based visu
 ## 📌 Graphical Abstract  
 
 <p align="center">
-  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="700" />
+  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="900" />
 </p>
 
 ---
@@ -59,7 +59,7 @@ The boxplot visualizes global gene expression distribution across all samples to
 - Potential batch effects  
 
 <p align="center">
-<img width="4840" height="3740" alt="image" src="https://github.com/user-attachments/assets/d65be8a0-648d-4679-a99f-948805220047" />
+<img width="900" height="3740" alt="image" src="https://github.com/user-attachments/assets/d65be8a0-648d-4679-a99f-948805220047" />
 </p>
 
 ---
