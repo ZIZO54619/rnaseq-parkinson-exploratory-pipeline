@@ -37,9 +37,8 @@ The boxplot visualizes global gene expression distribution across all samples to
 - potential batch effects  
 
 <p align="center">
-  <img src="https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/Box%20Plot.pdf" width="600">
+<img width="824" height="636" alt="image" src="https://github.com/user-attachments/assets/b3a29e46-f441-4c03-a262-eda349901d75" />
 </p>
-<img width="1287" height="410" alt="image" src="https://github.com/user-attachments/assets/881b9ce7-4047-4ce8-bf31-0f3b6a689d2c" />
 
 ---
 
@@ -51,7 +50,7 @@ Misaligned density shapes may indicate:
 - scaling issues
 
 <p align="center">
-  <img src="PATH_TO_YOUR_IMAGE/Density plot.pdf" width="600">
+<img width="824" height="636" alt="image" src="https://github.com/user-attachments/assets/4a2e77c9-3539-4254-a363-73b6fd7373f0" />
 </p>
 
 ---
@@ -60,11 +59,11 @@ Misaligned density shapes may indicate:
 Histograms allow inspecting the full distribution shape for each sample.
 
 <p align="center">
-  <img src="PATH_TO_YOUR_IMAGE/Histogram_plot.pdf" width="600">
+<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/8b21f342-5da3-4341-bc41-703e08a22e5c" />
 </p>
 
 <p align="center">
-  <img src="PATH_TO_YOUR_IMAGE/Histograms_all_samples.pdf" width="600">
+<img width="955" height="636" alt="image" src="https://github.com/user-attachments/assets/95a19399-1eb0-4225-8596-b1e8707d1425" />
 </p>
 
 ---
