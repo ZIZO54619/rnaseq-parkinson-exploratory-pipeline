@@ -8,7 +8,7 @@ The pipeline includes data loading, quality control, PCA, and heatmap-based visu
 ## 📌 Graphical Abstract  
 
 <p align="center">
-  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="700" />
+  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="900" />
 </p>
 
 ---
