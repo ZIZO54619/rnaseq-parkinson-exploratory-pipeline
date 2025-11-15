@@ -153,7 +153,7 @@ Each sample is annotated using:
 A 3D visualization of the Z-score matrix adds a more geometric view of sample structure and gene activation patterns.
 
 <p align="center">
-<img width="636" height="636" alt="image" src="https://github.com/user-attachments/assets/d00daeed-8aad-4992-9d79-e1dea3accf3d" />
+<img width="2000" height="2000" alt="Z-score_heatmap3D" src="https://github.com/user-attachments/assets/00f5a0fb-7261-4a21-9c29-f7d095e537b2" />
 </p>
 
 ---
