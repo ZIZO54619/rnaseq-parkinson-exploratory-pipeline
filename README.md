@@ -8,7 +8,7 @@ The pipeline includes data loading, quality control, PCA, and heatmap-based visu
 ## 📌 Graphical Abstract  
 
 <p align="center">
-  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="900" />
+  <img alt="Graphical abstract" src="https://github.com/user-attachments/assets/e4c9ba06-c24a-435c-981e-7e8e2ed5fc4a" width="700" />
 </p>
 
 ---
@@ -59,7 +59,7 @@ The boxplot visualizes global gene expression distribution across all samples to
 - Potential batch effects  
 
 <p align="center">
-  <img alt="Boxplot" src="https://github.com/user-attachments/assets/b3a29e46-f441-4c03-a262-eda349901d75" width="750" />
+  <img alt="Boxplot" src="https://github.com/user-attachments/assets/b3a29e46-f441-4c03-a262-eda349901d75" width="450" />
 </p>
 
 ---
@@ -74,7 +74,7 @@ Misaligned density shapes may indicate:
 - Scaling or normalization issues  
 
 <p align="center">
-  <img alt="Density plot" src="https://github.com/user-attachments/assets/4a2e77c9-3539-4254-a363-73b6fd7373f0" width="750" />
+  <img alt="Density plot" src="https://github.com/user-attachments/assets/4a2e77c9-3539-4254-a363-73b6fd7373f0" width="450" />
 </p>
 
 ---
@@ -108,7 +108,7 @@ The 2D PCA scatter plot shows:
   → Potential misclassification or hidden phenotype effect
 
 <p align="center">
-  <img alt="PCA 2D" src="https://github.com/user-attachments/assets/bf8ee7a4-df15-4b3b-9dbc-ccd99823efe5" width="650" />
+  <img alt="PCA 2D" src="https://github.com/user-attachments/assets/bf8ee7a4-df15-4b3b-9dbc-ccd99823efe5" width="450" />
 </p>
 
 ---
@@ -120,7 +120,7 @@ A 3D PCA plot provides a deeper look at sample grouping and local structure.
 👉 **[Open PCA_3D interactive plot](https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html)**
 
 <p align="center">
-  <img alt="PCA 3D preview" src="https://github.com/user-attachments/assets/03fc4d3c-e4be-4b07-860f-4324f9ac8af7" width="750" />
+  <img alt="PCA 3D preview" src="https://github.com/user-attachments/assets/03fc4d3c-e4be-4b07-860f-4324f9ac8af7" width="450" />
 </p>
 
 ---
@@ -139,7 +139,7 @@ This heatmap displays the expression of the most informative genes across all sa
 - Some samples clearly shift toward PD-like patterns  
 
 <p align="center">
-  <img alt="Top 100 variable genes heatmap" src="https://github.com/user-attachments/assets/c3a672d8-cad5-4625-a3a6-6a8a279e4319" width="700" />
+  <img alt="Top 100 variable genes heatmap" src="https://github.com/user-attachments/assets/c3a672d8-cad5-4625-a3a6-6a8a279e4319" width="450" />
 </p>
 
 ---
@@ -159,7 +159,7 @@ Each sample is annotated using:
 - Age scale (white → black)  
 
 <p align="center">
-  <img alt="Z-score heatmap" src="https://github.com/user-attachments/assets/5a3168cc-5113-4cdf-aa8b-85770856cc7d" width="700" />
+  <img alt="Z-score heatmap" src="https://github.com/user-attachments/assets/5a3168cc-5113-4cdf-aa8b-85770856cc7d" width="450" />
 </p>
 
 ---
@@ -169,7 +169,7 @@ Each sample is annotated using:
 A 3D visualization of the Z-score matrix adds a more geometric view of sample structure and gene activation patterns.
 
 <p align="center">
-  <img alt="Z-score 3D heatmap" src="https://github.com/user-attachments/assets/00f5a0fb-7261-4a21-9c29-f7d095e537b2" width="550" />
+  <img alt="Z-score 3D heatmap" src="https://github.com/user-attachments/assets/00f5a0fb-7261-4a21-9c29-f7d095e537b2" width="450" />
 </p>
 
 ---
