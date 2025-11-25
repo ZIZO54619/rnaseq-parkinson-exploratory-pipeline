@@ -117,7 +117,6 @@ The 2D PCA scatter plot shows:
 
 A 3D PCA plot provides a deeper look at sample grouping and local structure.
 
-👉 **[Open PCA_3D interactive plot](https://github.com/ZIZO54619/rnaseq-parkinson-exploratory-pipeline/blob/main/reports/figures/PCA_3D.html)**
 
 <p align="center">
   <img alt="PCA 3D preview" src="https://github.com/user-attachments/assets/03fc4d3c-e4be-4b07-860f-4324f9ac8af7" width="750" />
