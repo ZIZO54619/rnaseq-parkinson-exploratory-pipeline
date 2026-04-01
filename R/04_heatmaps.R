@@ -13,6 +13,11 @@ if (n_top_var_genes > nrow(Data)) {
 top_var_genes <- names(sort(gene_vars, decreasing = TRUE))[1:n_top_var_genes]
 top_var_data <- Data[top_var_genes, ]
 
+heatmap_top_file <- file.path(out_figures, sprintf("heatmap_top_%d.pdf", n_top_var_genes))
+zscore_heatmap_file <- file.path(out_figures, "z_score_heatmap.pdf")
+zscore_heatmap3d_file <- file.path(out_figures, "z_score_heatmap_3d.pdf")
+
+pdf(heatmap_top_file, width = 10, height = 10)
 heatmap_top_file <- file.path(out_figures, sprintf("Heatmap_top%d.pdf", n_top_var_genes))
 zscore_heatmap_file <- file.path(out_figures, "Z-score_heatmap.pdf")
 zscore_heatmap3d_file <- file.path(out_figures, "Z-score_heatmap3D.pdf")

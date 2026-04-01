@@ -279,7 +279,18 @@ All figures will be generated under:
 reports/figures/
 ```
 
-You can then open the static PNG/PDF plots or interactive HTML (e.g., `PCA_3D.html`) directly from that folder.
+You can then open the static PNG/PDF plots or interactive HTML (e.g., `pca_3d.html`) directly from that folder.
+
+Generated artifact names follow a lowercase `snake_case` convention:
+
+- `boxplot.pdf`
+- `density.pdf`
+- `histograms.pdf`
+- `pca_2d.pdf`
+- `pca_3d.html`
+- `heatmap_top_<n>.pdf` (where `<n>` = `n_top_var_genes`)
+- `z_score_heatmap.pdf`
+- `z_score_heatmap_3d.pdf`
 
 ---
 

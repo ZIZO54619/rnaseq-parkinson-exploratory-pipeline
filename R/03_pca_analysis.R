@@ -10,6 +10,10 @@ if (!exists("out_figures")) {
 t_data <- t(Data)
 pca_result <- prcomp(t_data, scale. = TRUE)
 
+pca_2d_file <- file.path(out_figures, "pca_2d.pdf")
+pca_3d_file <- file.path(out_figures, "pca_3d.html")
+
+pdf(pca_2d_file, width = 10, height = 10)
 pca_2d_file <- file.path(out_figures, "PCA_2D.pdf")
 pca_3d_file <- file.path(out_figures, "PCA_3D.html")
 
