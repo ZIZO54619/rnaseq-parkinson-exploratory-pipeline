@@ -10,6 +10,10 @@ if (!exists("out_figures")) {
 t_data <- t(Data)
 pca_result <- prcomp(t_data, scale. = TRUE)
 
+pca_2d_file <- file.path(out_figures, "PCA_2D.pdf")
+pca_3d_file <- file.path(out_figures, "PCA_3D.html")
+
+pdf(pca_2d_file, width = 10, height = 10)
 pdf(file.path(out_figures, "PCA_2D.pdf"), width = 10, height = 10)
 print(
   autoplot(pca_result, data = pheno, colour = "group", label = FALSE, frame = TRUE) +
@@ -26,6 +30,7 @@ pca_df$group <- pheno$group
 p <- plot_ly(pca_df, x = ~PC1, y = ~PC2, z = ~PC3,
              color = ~group, colors = c("blue", "red"),
              type = "scatter3d", mode = "markers")
+saveWidget(p, file = pca_3d_file)
 saveWidget(p, file = file.path(out_figures, "PCA_3D.html"))
 
 # Variance calculation
