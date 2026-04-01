@@ -18,6 +18,12 @@ zscore_heatmap_file <- file.path(out_figures, "z_score_heatmap.pdf")
 zscore_heatmap3d_file <- file.path(out_figures, "z_score_heatmap_3d.pdf")
 
 pdf(heatmap_top_file, width = 10, height = 10)
+heatmap_top_file <- file.path(out_figures, sprintf("Heatmap_top%d.pdf", n_top_var_genes))
+zscore_heatmap_file <- file.path(out_figures, "Z-score_heatmap.pdf")
+zscore_heatmap3d_file <- file.path(out_figures, "Z-score_heatmap3D.pdf")
+
+pdf(heatmap_top_file, width = 10, height = 10)
+pdf(file.path(out_figures, sprintf("Heatmap_top%d.pdf", n_top_var_genes)), width = 10, height = 10)
 print(Heatmap(top_var_data, name = "Expression", show_row_names = FALSE))
 dev.off()
 
@@ -42,6 +48,7 @@ col_anno <- HeatmapAnnotation(
 my_order <- pheno_ordered$sample.id[order(pheno_ordered$sample.type)]
 
 pdf(zscore_heatmap_file, width = 10, height = 10)
+pdf(file.path(out_figures, "Z-score_heatmap.pdf"), width = 10, height = 10)
 print(
   Heatmap(
     z_score_data,
@@ -80,6 +87,7 @@ col_anno <- HeatmapAnnotation(
 )
 
 pdf(zscore_heatmap3d_file, width = 10, height = 10)
+pdf(file.path(out_figures, "Z-score_heatmap3D.pdf"), width = 10, height = 10)
 Heatmap3D(
   z_score_data_pos,
   name = "Z-score",
