@@ -14,6 +14,7 @@ pca_2d_file <- file.path(out_figures, "PCA_2D.pdf")
 pca_3d_file <- file.path(out_figures, "PCA_3D.html")
 
 pdf(pca_2d_file, width = 10, height = 10)
+pdf(file.path(out_figures, "PCA_2D.pdf"), width = 10, height = 10)
 print(
   autoplot(pca_result, data = pheno, colour = "group", label = FALSE, frame = TRUE) +
     ggtitle("PCA - 2D") +
@@ -30,6 +31,7 @@ p <- plot_ly(pca_df, x = ~PC1, y = ~PC2, z = ~PC3,
              color = ~group, colors = c("blue", "red"),
              type = "scatter3d", mode = "markers")
 saveWidget(p, file = pca_3d_file)
+saveWidget(p, file = file.path(out_figures, "PCA_3D.html"))
 
 # Variance calculation
 gene_vars <- apply(Data, 1, var)

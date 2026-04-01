@@ -9,6 +9,8 @@ if (!exists("raw_expr") || !exists("raw_pheno")) {
 if (!file.exists(raw_expr)) {
   stop(sprintf("Expression file not found: %s", raw_expr))
 }
+Data <- read.table(raw_expr, header = TRUE, sep = "\t", row.names = 1)
+pheno <- read.table(raw_pheno, header = TRUE, sep = "\t")
 
 if (!file.exists(raw_pheno)) {
   stop(sprintf("Phenotype file not found: %s", raw_pheno))
