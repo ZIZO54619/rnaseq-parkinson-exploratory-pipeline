@@ -245,7 +245,7 @@ rnaseq-parkinson-exploratory-pipeline/
 │
 ├─ configs/
 │  ├─ paths.yml              # Input / output paths
-│  └─ params.yml             # Analysis parameters (e.g., top_n_genes)
+│  └─ params.yml             # Analysis parameters (e.g., n_top_var_genes)
 │
 ├─ reports/
 │  └─ figures/               # All generated plots (PDF/PNG/HTML)
@@ -265,11 +265,7 @@ rnaseq-parkinson-exploratory-pipeline/
    cd rnaseq-parkinson-exploratory-pipeline
    ```
 
-2. **Open R / RStudio and set the working directory:**
-
-   ```r
-   setwd("path/to/rnaseq-parkinson-exploratory-pipeline")
-   ```
+2. **Open R / RStudio (any working directory is fine):**
 
 3. **Run the main script:**
 
@@ -283,7 +279,18 @@ All figures will be generated under:
 reports/figures/
 ```
 
-You can then open the static PNG/PDF plots or interactive HTML (e.g., `PCA_3D.html`) directly from that folder.
+You can then open the static PNG/PDF plots or interactive HTML (e.g., `pca_3d.html`) directly from that folder.
+
+Generated artifact names follow a lowercase `snake_case` convention:
+
+- `boxplot.pdf`
+- `density.pdf`
+- `histograms.pdf`
+- `pca_2d.pdf`
+- `pca_3d.html`
+- `heatmap_top_<n>.pdf` (where `<n>` = `n_top_var_genes`)
+- `z_score_heatmap.pdf`
+- `z_score_heatmap_3d.pdf`
 
 ---
 
@@ -300,11 +307,12 @@ You can then open the static PNG/PDF plots or interactive HTML (e.g., `PCA_3D.ht
   * plotly  
   * htmlwidgets  
   * readr  
+  * yaml  
 
 Packages can be installed with:
 
 ```r
-install.packages(c("tidyverse", "ggplot2", "ggfortify", "plotly", "htmlwidgets", "readr"))
+install.packages(c("tidyverse", "ggplot2", "ggfortify", "plotly", "htmlwidgets", "readr", "yaml"))
 
 if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
@@ -319,7 +327,7 @@ BiocManager::install(c("ComplexHeatmap", "circlize"))
 ## 🧪 Reproducibility & Notes
 
 - Scripts are modular and can be adapted to other case–control RNA-Seq datasets.  
-- The number of top variable genes (default = 100) can be tuned via `configs/params.yml`.  
+- The number of top variable genes (default = 100) is controlled by `configs/params.yml` key `n_top_var_genes`.  
 - All plots are generated programmatically to make the workflow reproducible and version-controlled.
 
 ---
